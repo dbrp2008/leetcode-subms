@@ -18,5 +18,5 @@ class Solution:
                 while slow != fast:
                     fast = fast.next
                     slow = slow.next
-                return fast
+                return slow
         return None
