@@ -8,7 +8,6 @@ class Solution:
                 return [left + 1, right + 1]
             elif current_sum < target:
                 left += 1  
-            else:
+            elif current_sum > target:
                 right -= 1 
-        
         return []
