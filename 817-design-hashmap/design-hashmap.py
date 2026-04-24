@@ -1,7 +1,7 @@
 class MyHashMap:
 
     def __init__(self):
-        self.num_buckets = 51
+        self.num_buckets = 52
         self.buckets = [[] for i in range(self.num_buckets)]
 
     def put(self, key: int, value: int) -> None:
