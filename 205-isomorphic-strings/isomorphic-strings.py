@@ -9,5 +9,4 @@ class Solution:
                 return False
             mapST[cs] = ct
             mapTS[ct] = cs
-
         return True
